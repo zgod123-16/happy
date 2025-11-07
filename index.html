@@ -25,20 +25,11 @@
     </section>
 
     <section class="flowers">
-        <h2>🥀🌹🪷💮🌸💐🌺🌻🌼🌷🪻 Все тебе подарят от души!</h2>
+        <h2>🥀🌹🪷💮🌸💐🌺🌻🌼🌷🪻 Будь прекрасна как эти цветы!</h2>
         <button class="btn">🎉 С ДНЁМ РОЖДЕНИЯ! 🎉</button>
-        <button class="btn">💫 ЖЕЛАЕМ РАДОСТИ И ВЕСЕЛЬЯ! 💫</button>
+        <button class="btn">💫 Желаем радости и веселья! 💫</button>
         <button class="btn">😄</button>
     </section>
-
-    <!-- 🎶 Музыка -->
-    <div class="music-player">
-        <audio id="music" autoplay loop>
-            <source src="https://cdn.pixabay.com/download/audio/2023/02/02/audio_2ed9c34d8b.mp3?filename=happy-birthday-song-13463.mp3" type="audio/mpeg">
-            Ваш браузер не поддерживает аудио.
-        </audio>
-        <button class="music-btn" onclick="toggleMusic()">🔊 Пауза</button>
-    </div>
 
     <!-- 🌸 МНОГО ЦВЕТОВ -->
     <div class="falling-flowers">
@@ -59,21 +50,8 @@
     </div>
 
     <footer>
-        <p>С любовью от друзей 💕</p>
+        <p>с любовью от Ильи, Арсения, и Вали</p>
     </footer>
 
-    <script>
-        const music = document.getElementById('music');
-        const btn = document.querySelector('.music-btn');
-        function toggleMusic() {
-            if (music.paused) {
-                music.play();
-                btn.textContent = "🔊 Пауза";
-            } else {
-                music.pause();
-                btn.textContent = "🎵 Включить";
-            }
-        }
-    </script>
 </body>
 </html>
